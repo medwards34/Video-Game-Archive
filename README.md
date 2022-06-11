@@ -40,6 +40,18 @@ replace "URL copied" with the url that you actually copied (no quotation marks) 
 
 <img src=>
 
+## Create a branch
+
+Change the directory on your terminal to the repository you cloned.
+
+Create a branch using the `git checkout` command:
+
+```
+git checkout -b branch-name
+```
+
+`branch-name` does not have to be the actual name. It is recommended to change it to something to let the user know you are updating the archive.
+
 ## MAKE CHANGES to your repository
 
 the repository will now be cloned to your local machine. once you have cloned the repository, open the file `Video-Game-Archive` in your text editor you will be using to contribute to the archive (excel is the most recommended editor).
@@ -74,8 +86,10 @@ provide any comment you want towards your contribution
 Push your changes using the following command
 
 ```
-git push origin
+git push origin <branch-name>
 ```
+
+The `branch-name` will be the name of the branch you created earlier.
 
 ## SUBMIT your pull request
 
