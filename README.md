@@ -52,9 +52,8 @@ Once you have finished adding the title(s), save the file.
 
 You can see the changes you made by using the terminal to run the command
 
-```
-Git status
-```
+
+`Git status`
 
 Now add the changes you made by running the command
 
